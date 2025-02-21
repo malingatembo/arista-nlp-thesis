@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.env
+*.ipynb_checkpoints/
+data/raw/
+data/processed/
+data/embeddings/
+data/code_snippets/
+data/tables/
+data/images/
+models/
