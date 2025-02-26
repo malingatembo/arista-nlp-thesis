@@ -1,5 +1,31 @@
+#transformers==4.36.2
+#faiss-cpu>=1.8.0
+#sentence-transformers==2.2.2
+#huggingface-hub==0.19.4  
+
+# Core PDF/Text Processing
 pdfplumber==0.9.0
-nltk==3.8.1
+pytesseract==0.3.10  # OCR fallback
+pdfminer.six==20221105 
+#pdfminer.six==20231228  # Detailed PDF parsing
+PyMuPDF==1.23.21  # Faster text extraction (optional)
+python-dotenv==1.0.0  # Environment variables
+camelot-py[base]==0.11.0  # Table extraction (requires poppler-utils)
+
+# NLP & Metadata
 spacy==3.7.2
+en_core_web_sm==3.7.1  # spaCy English model
+nltk==3.8.1
+python-dotenv==1.0.0  # Environment variables
+
+# Data Handling
 pandas==2.1.1
 tqdm==4.66.1
+
+# Embeddings & Vector DB
+sentence-transformers==2.2.2
+faiss-cpu==1.8.0
+
+# Validation/QA
+pytest==7.4.4  # For unit tests
+pytest-mock==3.12.0

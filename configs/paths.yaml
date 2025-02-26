@@ -1,0 +1,4 @@
+paths:
+  processed_data: "data/processed"
+  raw_data: "data/raw"
+  embeddings: "data/embeddings"
